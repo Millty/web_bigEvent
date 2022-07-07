@@ -1,10 +1,9 @@
-html,
-body {
-  margin: 0;
+html,body {
+  margin:0;
   padding: 0;
   height: 100%;
   width: 100%;
-  background: url('/assets/images/login_bg.jpg') no-repeat center;
+  background: url(/assets/images/login_bg.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -15,7 +14,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
 }
 
 .title-box {
@@ -46,8 +45,8 @@ body {
 
 .layui-icon {
   position: absolute;
-  left: 10px;
   top: 10px;
+  left: 10px;
 }
 
 .layui-input {
